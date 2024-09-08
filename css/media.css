@@ -1,0 +1,33 @@
+@media(max-width:969px){
+    .nav-links{
+        display: none;
+    }
+    form{
+        display: none;
+    }
+    .menubar{
+        display: block;
+        cursor: pointer;
+    }
+    .nav-links{
+        position: absolute;
+        top: 90px;
+        width: 90%;
+        background-color: #27150B;
+        right: 0;
+        border-radius: 0 0 0 20px;
+        display: block;
+        transform: scale(0);
+            transition: 0.3s;
+            transform-origin: top right;
+           
+    }
+    .show{
+        transform: scale(1);
+    }
+        .nav-links a{
+            display: block;
+            text-align: center;
+            margin: 15px 0;
+        }
+}
